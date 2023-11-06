@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import { useEffect, useState } from "react";
 import Maincontent from "./Components/Maincontent/Maincontent";
+import Footer from "./Components/Footer/Footer";
 
 let data = [
   {
@@ -61,6 +62,7 @@ function App() {
           <Navbar />
           <Hero />
           <Maincontent data={data}/>
+          <Footer/>
         </>
       )}
     </div>
