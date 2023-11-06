@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# NTWIST Inc. Homepage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the NTWIST Inc. homepage! This is a simple project showcasing information about NTWIST Inc. It primarily consists of a homepage with definitions and sections for images.
 
-## Available Scripts
+## About NTWIST Inc.
 
-In the project directory, you can run:
+NTWIST Inc. is a company dedicated to providing innovative solutions for various industries. Our mission is to optimize processes, promote sustainability, and offer cutting-edge AI software solutions.
 
-### `npm start`
+## Homepage Sections
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Laptop Screens
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Hero](https://github.com/masai-course/Ankit_fw19_0178/assets/103572350/a53614e4-ff55-4163-a6a9-328130046d1c)
+![Content](https://github.com/masai-course/Ankit_fw19_0178/assets/103572350/b779bacf-41f4-4cd0-b3da-d471056491b6)
+![Footer](https://github.com/masai-course/Ankit_fw19_0178/assets/103572350/bbfb7f98-ab46-45ba-9d34-aa49a493d8c9)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Mobile Screens
 
-### `npm run build`
+![Hero](https://github.com/masai-course/Ankit_fw19_0178/assets/103572350/3cbd2c75-8456-45c5-aae1-9e308c74257a)
+![Content](https://github.com/masai-course/Ankit_fw19_0178/assets/103572350/8759b17c-f992-4083-87f9-d204744ddcf1)
+![Footer](https://github.com/masai-course/Ankit_fw19_0178/assets/103572350/52df6463-70ce-4338-b743-5b848495ed26)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to Use
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is a simple homepage, so there are no specific usage instructions. Feel free to explore the sections and learn more about NTWIST Inc.
 
-### `npm run eject`
+## Contributors
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Ankit Sharma](https://github.com/ankits-svg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
