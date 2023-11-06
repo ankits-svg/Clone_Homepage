@@ -5,6 +5,7 @@ import Hero from "./Components/Hero/Hero";
 import { useEffect, useState } from "react";
 import Maincontent from "./Components/Maincontent/Maincontent";
 import Footer from "./Components/Footer/Footer";
+import Scroll from "./Components/Scroll/Scroll";
 
 let data = [
   {
@@ -39,7 +40,7 @@ let data = [
 
 function App() {
   const [load, setLoad] = useState(true);
-  console.log("data:", data);
+  // console.log("data:", data);
   useEffect(() => {
     setTimeout(() => {
       setLoad(!load);
@@ -60,6 +61,7 @@ function App() {
       ) : (
         <>
           {/* <Navbar /> */}
+          <Scroll/>
           <Hero />
           <Maincontent data={data}/>
           <Footer/>

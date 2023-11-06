@@ -122,7 +122,7 @@ const Maincontent = ({data}) => {
             }}
           >
             <h2 style={{
-                fontFamily:"Inter, sans-serif;",
+                fontFamily:"Inter, sans-serif",
                 fontStyle:"normal",
                 fontWeight:"500",
                 fontSize:"43px",
