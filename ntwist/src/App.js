@@ -59,7 +59,7 @@ function App() {
         </div>
       ) : (
         <>
-          <Navbar />
+          {/* <Navbar /> */}
           <Hero />
           <Maincontent data={data}/>
           <Footer/>

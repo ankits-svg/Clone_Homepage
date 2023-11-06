@@ -41,6 +41,7 @@ const Navbar = () => {
                     {item.subItems.map((subItem, index) => (
                       <li key={index}>{subItem}</li>
                     ))}
+                    {/* <li>{item.subItems[0]}</li> */}
                   </ul>
                 </div>
               ) : (
@@ -58,7 +59,18 @@ const Navbar = () => {
           <div className={style['mobile-menu']}>
             <ul className={style['menu-list']}>
               {menuItems.map((item) => (
-                <li key={item.id}>{item.label}</li>
+                <li key={item.id}>{item.subItems ? (
+                  <div className={style['sub-menu']}>
+                    {item.label}
+                    <ul>
+                      {item.subItems.map((subItem, index) => (
+                        <li key={index}>{subItem}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : (
+                  item.label
+                )}</li>
               ))}
             </ul>
           </div>

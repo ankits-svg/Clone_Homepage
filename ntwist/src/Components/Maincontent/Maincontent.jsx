@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
 
-
 const Maincontent = ({data}) => {
 
     const [size, setSize] = useState("laptop");
@@ -45,14 +44,33 @@ const Maincontent = ({data}) => {
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
+              margin: '30px',
             }}
           >
-            <h2>{e.title}</h2>
-            <p>{e.detail}</p>
+            <h2 style={{
+                fontFamily:"Inter, sans-serif",
+                fontStyle:"normal",
+                fontWeight:"500",
+                fontSize:"43px",
+                lineHeight:"56px",
+                color:"#ff3a2d",
+                textAlign:"start"
+            }}>{e.title}</h2>
+            <p style={{
+                fontFamily:"Roboto, sans-serif",
+                fontStyle:"normal",
+                fontWeight:"400",
+                fontSize:"20px",
+                lineHeight:"1.6",
+                color:"#000000",
+                textAlign:"start",
+            }}>{e.detail}</p>
             <button
               style={{
-                backgroundColor: 'orange',
-                padding: '10px',
+                backgroundColor: '#FF3A2D',
+                padding: '10px 10px',
+                borderRadius:"5px",
+                marginRight:"85%",
                 color: 'white',
                 border: 'none',
               }}
@@ -99,12 +117,30 @@ const Maincontent = ({data}) => {
               alignItems: 'center',
             }}
           >
-            <h2>{e.title}</h2>
-            <p>{e.detail}</p>
+            <h2 style={{
+                fontFamily:"Inter, sans-serif;",
+                fontStyle:"normal",
+                fontWeight:"500",
+                fontSize:"43px",
+                lineHeight:"1.6",
+                color:"#ff3a2d",
+                textAlign:"start"
+            }}>{e.title}</h2>
+            <p style={{
+                fontFamily:"Roboto, sans-serif",
+                fontStyle:"normal",
+                fontWeight:"400",
+                fontSize:"20px",
+                lineHeight:"1.6",
+                color:"#000000",
+                textAlign:"start",
+            }}>{e.detail}</p>
             <button
               style={{
-                backgroundColor: 'orange',
+                backgroundColor: '#FF3A2D',
                 padding: '10px',
+                borderRadius:"5px",
+                marginRight:"50%",
                 color: 'white',
                 border: 'none',
               }}
