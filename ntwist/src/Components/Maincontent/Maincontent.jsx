@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import gsap from 'gsap';
+import React, { useEffect, useRef, useState } from 'react'
 
 
 const Maincontent = ({data}) => {
 
     const [size, setSize] = useState("laptop");
+  
 
   const handleResize = () => {
     const width = window.innerWidth;
@@ -23,6 +25,8 @@ const Maincontent = ({data}) => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  
 
   return (
     <div>
