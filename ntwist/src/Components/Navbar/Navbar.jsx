@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import style from './Navbar.module.css';
 
 const menuItems = [
@@ -15,7 +15,7 @@ const menuItems = [
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+  
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
