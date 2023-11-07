@@ -56,10 +56,13 @@
   }
   
   @media (max-width: 768px) {
-    .menu .second-line{
+    .menu{
+      display: table-column;
+    }
+    /* .menu .first-line{
         margin-left: 40px;
     }
     .menu .second-line {
       margin-left: 30px;
-    }
+    } */
   }
