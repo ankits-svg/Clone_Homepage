@@ -2,6 +2,12 @@
 
 Welcome to the NTWIST Inc. homepage! This is a simple project showcasing information about NTWIST Inc. It primarily consists of a homepage with definitions and sections for images.
 
+
+## Deployed Link
+
+ -[DeplyedLink](https://ntwisthomeclone.netlify.app/)
+
+ 
 ## About NTWIST Inc.
 
 NTWIST Inc. is a company dedicated to providing innovative solutions for various industries. Our mission is to optimize processes, promote sustainability, and offer cutting-edge AI software solutions.
